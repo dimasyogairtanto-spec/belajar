@@ -67,3 +67,28 @@ pastikan firewall sudah berjalan, untuk memastikanya masukkan command
 ```
 systemctl status firewalld
 ```
+
+masukkan command
+
+```
+firewall-cmd --list-all-zone
+```
+
+```
+firewall-cmd --zone=public --remove-service =dhcpv6-client --permanent
+```
+
+**work, trusted, nm-shared, libvirt-routed, libvirt, home, internal harus kosong service nya 
+untuk libvirt doang sisain sshnya aja
+untuk publik sisain copit sama ssh 
+drop tidak perlu di ubah
+dmz tidak perlu di ubah
+block tidak perlu di ubah**
+
+#### untuk mengubah/ menghapus-nya bisa di lakukan dengan command ini
+
+```
+firewall-cmd --list-all --zone=work
+```
+```
+firewall-cmd --list-all --zone=work --service
