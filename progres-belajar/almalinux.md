@@ -25,7 +25,7 @@ mount point: /var/log
 desire capacity:5 gb
 
 pencet tanda +
-/var/lib/libvirt
+/var/lib/libvirt/images
 desire capacity masukkan sisa avaible space (GB)
 
 pencet (clik here apa gitu) di kanan atas
