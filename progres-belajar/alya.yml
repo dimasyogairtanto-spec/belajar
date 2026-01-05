@@ -1,0 +1,441 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\muhammad mirza
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 168
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 44
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 46809
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nTry the new cross-platform PowerShell https://aka.ms/pscore6\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h\e[25l\e[6;1H\e[?25h"
+  - delay: 10761
+    content: 'PS C:\Users\muhammad mirza> '
+  - delay: 868792
+    content: "\e[?25l"
+  - delay: 37
+    content: "& \e[36m\"C:\\Program Files\\MariaDB 12.0\\bin\\mysql.exe\"\e[m \e[90m-u\e[m root \e[90m-p\e[?25h"
+  - delay: 2937
+    content: "\e[m\r\n"
+  - delay: 16564
+    content: 'Enter password: '
+  - delay: 2828
+    content: '*'
+  - delay: 799
+    content: "\r\n"
+  - delay: 5640
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 20
+    content: "\r\nYour MariaDB connection id is 6\e[47X\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[16X\r\n\e[78X\r\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[10X\r\n\e[78X\r\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\e[78X\r\nMariaDB [(none)]> \e[60X"
+  - delay: 27540
+    content: s
+  - delay: 409
+    content: h
+  - delay: 215
+    content: o
+  - delay: 265
+    content: w
+  - delay: 181
+    content: ' '
+  - delay: 7261
+    content: atabases
+  - delay: 2337
+    content: "\b \b"
+  - delay: 183
+    content: "\b \b"
+  - delay: 154
+    content: "\b \b"
+  - delay: 150
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 149
+    content: "\b \b"
+  - delay: 149
+    content: "\b \b"
+  - delay: 1017
+    content: ' '
+  - delay: 375
+    content: d
+  - delay: 163
+    content: a
+  - delay: 33
+    content: t
+  - delay: 179
+    content: a
+  - delay: 631
+    content: b
+  - delay: 218
+    content: a
+  - delay: 178
+    content: s
+  - delay: 46
+    content: e
+  - delay: 161
+    content: s
+  - delay: 1631
+    content: ;
+  - delay: 792
+    content: "\r\n"
+  - delay: 3057
+    content: +--------------------+
+  - delay: 16
+    content: "\r\n|"
+  - delay: 71
+    content: ' Database           |'
+  - delay: 24
+    content: "\r\n+--------------------+\r\n| balqis             |\r\n| information_schema |\r\n| mysql              |\r\n| performance_schema |\r\n| perpus             |\r\n| perpustakan        |\r\n| po\e[18X"
+  - delay: 17
+    content: "\e[25l\r| poca               |   \r\n| sys                |   \r\n+--------------------+   \r\n8 rows in set (1.887 sec)\r\n\e[25X\r\nMariaDB [(none)]>        \e[31;19H\e[?25h"
+  - delay: 29844
+    content: g
+  - delay: 33
+    content: h
+  - delay: 97
+    content: d
+  - delay: 176
+    content: t
+  - delay: 39
+    content: 'y'
+  - delay: 1716
+    content: "\b \b"
+  - delay: 544
+    content: "\b \b"
+  - delay: 34
+    content: "\b \b"
+  - delay: 33
+    content: "\b \b"
+  - delay: 40
+    content: "\b \b"
+  - delay: 116553
+    content: U
+  - delay: 288
+    content: S
+  - delay: 115
+    content: E
+  - delay: 1130
+    content: ' '
+  - delay: 1967
+    content: P
+  - delay: 589
+    content: e
+  - delay: 148
+    content: r
+  - delay: 524
+    content: p
+  - delay: 269
+    content: u
+  - delay: 98
+    content: s
+  - delay: 174
+    content: t
+  - delay: 230
+    content: a
+  - delay: 317
+    content: l
+  - delay: 540
+    content: "\b \b"
+  - delay: 530
+    content: k
+  - delay: 183
+    content: a
+  - delay: 125
+    content: a
+  - delay: 143
+    content: 'n'
+  - delay: 2021
+    content: ;
+  - delay: 513
+    content: "\r\n"
+  - delay: 210
+    content: ERROR 1049 (42000)
+  - delay: 15
+    content: "\rERROR 1049 (42000): Unknown database 'perpustakaan'\r\nMariaDB [(none)]> \e[33X"
+  - delay: 4510
+    content: U
+  - delay: 363
+    content: s
+  - delay: 94
+    content: e
+  - delay: 475
+    content: ' '
+  - delay: 6846
+    content: p
+  - delay: 669
+    content: E
+  - delay: 192
+    content: R
+  - delay: 514
+    content: "\b \b"
+  - delay: 171
+    content: "\b \b"
+  - delay: 139
+    content: "\b \b"
+  - delay: 826
+    content: p
+  - delay: 401
+    content: e
+  - delay: 145
+    content: r
+  - delay: 298
+    content: p
+  - delay: 253
+    content: u
+  - delay: 138
+    content: s
+  - delay: 139
+    content: t
+  - delay: 217
+    content: a
+  - delay: 135
+    content: k
+  - delay: 121
+    content: a
+  - delay: 156
+    content: a
+  - delay: 131
+    content: 'n'
+  - delay: 761
+    content: ;
+  - delay: 192
+    content: "\r\n"
+  - delay: 8
+    content: "ERROR 1049 (42000): Unknown database 'perpustakaan'\r\nMariaDB [(none)]> \e[33X"
+  - delay: 181649
+    content: s
+  - delay: 174
+    content: h
+  - delay: 454
+    content: o
+  - delay: 226
+    content: w
+  - delay: 1551
+    content: ' '
+  - delay: 485
+    content: t
+  - delay: 181
+    content: a
+  - delay: 145
+    content: b
+  - delay: 253
+    content: e
+  - delay: 193
+    content: l
+  - delay: 159
+    content: s
+  - delay: 1258
+    content: "\b \b"
+  - delay: 204
+    content: "\b \b"
+  - delay: 2154
+    content: "\b \b"
+  - delay: 601
+    content: l
+  - delay: 220
+    content: e
+  - delay: 319
+    content: s
+  - delay: 1228
+    content: ;
+  - delay: 542
+    content: "\r\n"
+  - delay: 16
+    content: "ERROR 1046 (3D000): No database selected\r\nMariaDB [(none)]> \e[22X"
+  - delay: 86860
+    content: u
+  - delay: 135
+    content: s
+  - delay: 191
+    content: e
+  - delay: 209
+    content: ' '
+  - delay: 809
+    content: p
+  - delay: 197
+    content: e
+  - delay: 292
+    content: r
+  - delay: 458
+    content: p
+  - delay: 239
+    content: u
+  - delay: 215
+    content: s
+  - delay: 124
+    content: t
+  - delay: 234
+    content: a
+  - delay: 6830
+    content: k
+  - delay: 164
+    content: a
+  - delay: 137
+    content: 'n'
+  - delay: 866
+    content: ;
+  - delay: 2780
+    content: "\r\n"
+  - delay: 56
+    content: Database changed
+  - delay: 18
+    content: "\r\nMariaDB [perpustakan]> "
+  - delay: 160283
+    content: e
+  - delay: 1961
+    content: x
+  - delay: 148
+    content: i
+  - delay: 1426
+    content: t
+  - delay: 8978
+    content: "\r\n"
+  - delay: 23
+    content: "Bye\r\n"
+  - delay: 4907
+    content: 'PS C:\Users\muhammad mirza> '
+  - delay: 76599
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m^D\e[?25h"
+  - delay: 3260
+    content: "\e[m\r\n"
+  - delay: 87146
+    content: "\e[91m♦ : The term '♦' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, "
+  - delay: 19
+    content: "\e[m\e[91m\r\nverify that the path is correct and try again.\r\nAt line:1 char:1\e[m\e[30X\r\n\e[91m+ ♦\e[m\e[K\r\n\e[91m+ ~\e[m\e[K\r\n\e[91m    + CategoryInfo          : ObjectNotFound: (♦:String) [], CommandNotFoundException\e[m\e[K\e[91m\r\n\e[m\e[91m    + FullyQualifiedErrorId : CommandNotFoundException\e[m\r\n\e[91m \e[m\e[K"
+  - delay: 5
+    content: "\r\n"
+  - delay: 6541
+    content: "PS C:\\Users\\muhammad mirza> \e[93me"
+  - delay: 11
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\bee\e[?25h"
+  - delay: 1215
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[44;29He\e[m \b\e[?25h"
+  - delay: 991
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\bex\e[?25h"
+  - delay: 117
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[44;29Hexi\e[?25h"
+  - delay: 239
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[44;29Hexit\e[?25h"
+  - delay: 4507
+    content: "\e[25l\e[m\e[HWelcome to the MariaDB monitor.  Commands end with ; or \\g.\e[K\r\nYour MariaDB connection id is 6\e[K\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[K\r\n\e[K\r\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[K\r\n\e[K\r\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[K\r\n\e[K\r\nMariaDB [(none)]> show databases;\e[K\r\n+--------------------+\e[K\r\n| Database           |\e[K\r\n+--------------------+\e[K\r\n| balqis             |\e[K\r\n| information_schema |\e[K\r\n| mysql              |\e[K\r\n| performance_schema |\e[K\r\n| perpus             |\e[K\r\n| perpustakan        |\e[K\r\n| poca               |\e[K\r\n| sys                |\e[K\r\n+--------------------+\e[K\r\n8 rows in set (1.887 sec)\e[K\r\n\e[K\r\nMariaDB [(none)]> USE Perpustakaan;\e[K\r\nERROR 1049 (42000): Unknown database 'perpustakaan'\e[K\r\nMariaDB [(none)]> Use perpustakaan;\e[K\r\nERROR 1049 (42000): Unknown database 'perpustakaan'\e[K\r\nMariaDB [(none)]> show tables;\e[K\r\nERROR 1046 (3D000): No database selected\e[K\r\nMariaDB [(none)]> use perpustakan;\e[K\r\nDatabase changed\e[K\r\nMariaDB [perpustakan]> exit\e[K\r\nBye\e[K\r\nPS C:\\Users\\muhammad mirza> \e[93m^D\e[m\e[K\e[91m\r\n♦ : The term '♦' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, \e[m     \e[91m\r\nverify that the path is correct and try again.\e[m\e[K\e[91m\r\nAt line:1 char:1\e[m\e[K\e[91m\r\n+ ♦\e[m\e[K\e[91m\r\n+ ~\e[m\e[K\e[91m\r\n    + CategoryInfo          : ObjectNotFound: (♦:String) [], CommandNotFoundException\e[m\e[K\e[91m\r\n    + FullyQualifiedErrorId : CommandNotFoundException\e[m\e[K\e[91m\r\n \e[m\e[K\r\nPS C:\\Users\\muhammad mirza> \e[92mexit\e[m\e[K\r\n\e[K\e[32C\e[?25h"
+  - delay: 14
+    content: "\r"
