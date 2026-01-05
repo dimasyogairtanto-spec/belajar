@@ -1,0 +1,531 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\obin store
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 94
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 46
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 19348
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nTry the new cross-platform PowerShell https://aka.ms/pscore6\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 6
+    content: "\e[25l\e[6;1H\e[?25h"
+  - delay: 872
+    content: 'PS C:\Users\obin store> '
+  - delay: 2308
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93mm\e[?25h"
+  - delay: 250
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 116
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;25Hmys\e[?25h"
+  - delay: 558
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[6;25Hmysq\e[?25h"
+  - delay: 226
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[6;25Hmysql\e[?25h"
+  - delay: 351
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;25Hmysql\e[m \e[?25h"
+  - delay: 1414
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-\e[?25h"
+  - delay: 344
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[?25h"
+  - delay: 192
+    content: "\e[m\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m \e[?25h"
+  - delay: 116
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m r\e[?25h"
+  - delay: 218
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m ro\e[?25h"
+  - delay: 117
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m roo\e[?25h"
+  - delay: 318
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m root\e[?25h"
+  - delay: 207
+    content: "\e[?25l"
+  - delay: 26
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m root \e[?25h"
+  - delay: 359
+    content: "\e[?25l"
+  - delay: 25
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m root \e[90m-\e[?25h"
+  - delay: 200
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;25Hmysql\e[m \e[90m-u\e[m root \e[90m-p\e[?25h"
+  - delay: 690
+    content: "\e[m\r\n"
+  - delay: 529
+    content: E
+  - delay: 14
+    content: 'nter password: '
+  - delay: 717
+    content: '*'
+  - delay: 172
+    content: '*'
+  - delay: 215
+    content: '*'
+  - delay: 192
+    content: '*'
+  - delay: 192
+    content: '*'
+  - delay: 203
+    content: '*'
+  - delay: 241
+    content: "\r\n"
+  - delay: 302
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 15
+    content: "\r\nYour MariaDB connection id is 16\e[46X\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[16X\r\n\e[78X\r\nCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[10X\r\n\e[78X\r\nType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\e[78X\r\nMariaDB [(none)]> \e[60X"
+  - delay: 1979
+    content: s
+  - delay: 302
+    content: h
+  - delay: 265
+    content: o
+  - delay: 549
+    content: w
+  - delay: 212
+    content: ' '
+  - delay: 671
+    content: d
+  - delay: 141
+    content: a
+  - delay: 151
+    content: t
+  - delay: 81
+    content: a
+  - delay: 214
+    content: b
+  - delay: 142
+    content: a
+  - delay: 182
+    content: s
+  - delay: 215
+    content: e
+  - delay: 192
+    content: s
+  - delay: 517
+    content: ;
+  - delay: 223
+    content: "\r\n"
+  - delay: 1385
+    content: +--------------------+
+  - delay: 14
+    content: "\r\n| Database           |\r\n+--------------------+\r\n| information_schema |\r\n| mysql              |\r\n| pawas    \e[11X"
+  - delay: 18
+    content: "\r| pawas              |\r\n| performance_schema |\r\n| perpus             |\r\n| perpustakaan       |\r\n| sys\e[17X"
+  - delay: 17
+    content: "\e[25l\r| sys                |   \r\n+--------------------+   \r\n7 rows in set (1.385 sec)\r\n\e[25X\r\nMariaDB [(none)]>        \e[30;19H\e[?25h"
+  - delay: 1702
+    content: u
+  - delay: 91
+    content: s
+  - delay: 214
+    content: e
+  - delay: 142
+    content: ' '
+  - delay: 1927
+    content: p
+  - delay: 111
+    content: e
+  - delay: 193
+    content: r
+  - delay: 171
+    content: p
+  - delay: 264
+    content: u
+  - delay: 112
+    content: s
+  - delay: 305
+    content: t
+  - delay: 110
+    content: a
+  - delay: 246
+    content: k
+  - delay: 111
+    content: a
+  - delay: 171
+    content: a
+  - delay: 164
+    content: 'n'
+  - delay: 498
+    content: ;
+  - delay: 221
+    content: "\r\n"
+  - delay: 28
+    content: "Database changed        \r\nMariaDB [perpustakaan]> "
+  - delay: 3038
+    content: s
+  - delay: 141
+    content: h
+  - delay: 254
+    content: o
+  - delay: 344
+    content: w
+  - delay: 225
+    content: ' '
+  - delay: 2030
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 131
+    content: "\b \b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 141
+    content: "\b \b"
+  - delay: 1614
+    content: s
+  - delay: 485
+    content: h
+  - delay: 258
+    content: o
+  - delay: 201
+    content: w
+  - delay: 182
+    content: ' '
+  - delay: 355
+    content: t
+  - delay: 122
+    content: a
+  - delay: 183
+    content: b
+  - delay: 282
+    content: l
+  - delay: 105
+    content: e
+  - delay: 212
+    content: s
+  - delay: 407
+    content: ;
+  - delay: 281
+    content: "\r\n"
+  - delay: 20
+    content: "\e[25l+------------------------+\r\n| Tables_in_perpustakaan |\r\n+------------------------+\r\n| anggota                |\r\n| buku                   |\r\n| peminjaman             |\r\n+------------------------+\r\n3 rows in set (0.002 sec) \r\n\e[26X\r\nMariaDB [perpustakaan]>   \e[42;25H\e[?25h"
+  - delay: 3190
+    content: s
+  - delay: 243
+    content: e
+  - delay: 477
+    content: l
+  - delay: 121
+    content: e
+  - delay: 800
+    content: c
+  - delay: 357
+    content: t
+  - delay: 182
+    content: ' '
+  - delay: 649
+    content: i
+  - delay: 223
+    content: 'n'
+  - delay: 202
+    content: t
+  - delay: 206
+    content: o
+  - delay: 272
+    content: ' '
+  - delay: 1025
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 121
+    content: "\b \b"
+  - delay: 131
+    content: "\b \b"
+  - delay: 1867
+    content: '*'
+  - delay: 863
+    content: f
+  - delay: 182
+    content: r
+  - delay: 244
+    content: o
+  - delay: 213
+    content: m
+  - delay: 202
+    content: ' '
+  - delay: 1330
+    content: a
+  - delay: 141
+    content: 'n'
+  - delay: 204
+    content: g
+  - delay: 133
+    content: g
+  - delay: 262
+    content: o
+  - delay: 315
+    content: t
+  - delay: 122
+    content: a
+  - delay: 903
+    content: ;
+  - delay: 222
+    content: "\r\n"
+  - delay: 6
+    content: "+------------+--------+----------------+------------+\r\n| id_anggota | nama   | alamat         | no_telepon |\r\n+------------+--------+----------------+------------+\r\n|          1 | subhan | jl. merak no.1 | 98765789   |\r\n|          2 | wawan  | bandung        | 085810897  |\r\n|          3 | cecep  | surabaya       | 0812345678 |\r\n+------------+--------+----------------+------------+\r\n3 rows in set (0.001 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 1373
+    content: s
+  - delay: 214
+    content: e
+  - delay: 800
+    content: "\b \b"
+  - delay: 142
+    content: "\b \b"
+  - delay: 1081
+    content: select *from anggota;
+  - delay: 2625
+    content: "\b \b"
+  - delay: 151
+    content: "\b \b"
+  - delay: 142
+    content: "\b \b"
+  - delay: 142
+    content: "\b \b"
+  - delay: 152
+    content: "\b \b"
+  - delay: 234
+    content: "\b \b"
+  - delay: 153
+    content: "\b \b"
+  - delay: 162
+    content: "\b \b"
+  - delay: 1451
+    content: b
+  - delay: 203
+    content: u
+  - delay: 588
+    content: k
+  - delay: 233
+    content: u
+  - delay: 813
+    content: ;
+  - delay: 282
+    content: "\r\n+---------+--------------+---------+--------------+---------+\r\n| id_buku | judul        | penulis | tahun_terbit | isbn    |\r\n+---------+--------------+---------+--------------+---------+"
+  - delay: 6
+    content: "\r\n|       1 | sang pemimpi | iqbal   |         2020 | 123-321 |"
+  - delay: 5
+    content: "\r\n|       2 | pemimpin     | hakim   |         2021 | 345-678 |\r\n|       3 | waktu        | udik    |         2021 | 112-235 |\r\n+---------+--------------+---------+--------------+---------+\r\n3 rows in set (0.002 sec)\r\n"
+  - delay: 6
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 1358
+    content: select *from buku;
+  - delay: 1031
+    content: "\b \b"
+  - delay: 190
+    content: "\b \b"
+  - delay: 113
+    content: "\b \b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 142
+    content: "\b \b"
+  - delay: 1065
+    content: p
+  - delay: 132
+    content: e
+  - delay: 214
+    content: m
+  - delay: 201
+    content: i
+  - delay: 223
+    content: 'n'
+  - delay: 294
+    content: j
+  - delay: 135
+    content: a
+  - delay: 182
+    content: m
+  - delay: 91
+    content: a
+  - delay: 140
+    content: 'n'
+  - delay: 1483
+    content: ;
+  - delay: 253
+    content: "\r\n+---------------+------------+---------+----------------+-----------------+\r\n| id_peminjaman | id_anggota | id_buku | tanggal_pinjam | tanggal_kembali |\r\n+---------------+------------+---------+----------------+-----------------+"
+  - delay: 5
+    content: "\r\n|             1 |          1 |       2 | 2025-12-11     | 2025-12-13      |"
+  - delay: 5
+    content: "\r\n|             2 |          2 |       1 | 2025-12-13     | NULL            |"
+  - delay: 5
+    content: "\r\n|             3 |          3 |       3 | 2025-12-14     | 2025-12-19      |\r\n+---------------+------------+---------+----------------+-----------------+\r\n3 rows in set (0.001 sec)\r\n"
+  - delay: 15
+    content: "\nMariaDB [perpustakaan]>\e[1C"
+  - delay: 2327
+    content: e
+  - delay: 305
+    content: x
+  - delay: 357
+    content: i
+  - delay: 200
+    content: t
+  - delay: 964
+    content: "\r\nBye"
+  - delay: 14
+    content: "\r\n"
+  - delay: 49
+    content: 'PS C:\Users\obin store> '
+  - delay: 1898
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93me\e[?25h"
+  - delay: 361
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bec\e[?25h"
+  - delay: 538
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[46;25He\e[m \b\e[?25h"
+  - delay: 140
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\bex\e[?25h"
+  - delay: 406
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[46;25Hexi\e[?25h"
+  - delay: 243
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[92m\e[46;25Hexit\e[?25h"
+  - delay: 546
+    content: "\e[25l\e[m\e[HMariaDB [(none)]> use perpustakaan;\e[K\r\nDatabase changed\e[K\r\nMariaDB [perpustakaan]> show tables;\e[K\r\n+------------------------+\e[K\r\n| Tables_in_perpustakaan |\e[K\r\n+------------------------+\e[K\r\n| anggota                |\e[K\r\n| buku                   |\e[K\r\n| peminjaman             |\e[K\r\n+------------------------+\e[K\r\n3 rows in set (0.002 sec)\e[K\r\n\e[K\r\nMariaDB [perpustakaan]> select *from anggota;\e[K\r\n+------------+--------+----------------+------------+\e[K\r\n| id_anggota | nama   | alamat         | no_telepon |\e[K\r\n+------------+--------+----------------+------------+\e[K\r\n|          1 | subhan | jl. merak no.1 | 98765789   |\e[K\r\n|          2 | wawan  | bandung        | 085810897  |\e[K\r\n|          3 | cecep  | surabaya       | 0812345678 |\e[K\r\n+------------+--------+----------------+------------+\e[K\r\n3 rows in set (0.001 sec)\e[K\r\n\e[K\r\nMariaDB [perpustakaan]> select *from buku;\e[K\r\n+---------+--------------+---------+--------------+---------+\e[K\r\n| id_buku | judul        | penulis | tahun_terbit | isbn    |\e[K\r\n+---------+--------------+---------+--------------+---------+\e[K\r\n|       1 | sang pemimpi | iqbal   |         2020 | 123-321 |\e[K\r\n|       2 | pemimpin     | hakim   |         2021 | 345-678 |\e[K\r\n|       3 | waktu        | udik    |         2021 | 112-235 |\e[K\r\n+---------+--------------+---------+--------------+---------+\e[K\r\n3 rows in set (0.002 sec)\e[K\r\n\e[K\r\nMariaDB [perpustakaan]> select *from peminjaman;\e[K\r\n+---------------+------------+---------+----------------+-----------------+\e[K\r\n| id_peminjaman | id_anggota | id_buku | tanggal_pinjam | tanggal_kembali |\e[K\r\n+---------------+------------+---------+----------------+-----------------+\e[K\r\n|             1 |          1 |       2 | 2025-12-11     | 2025-12-13      |\e[K\r\n|             2 |          2 |       1 | 2025-12-13     | NULL            |\e[K\r\n|             3 |          3 |       3 | 2025-12-14     | 2025-12-19      |\e[K\r\n+---------------+------------+---------+----------------+-----------------+\e[K\r\n3 rows in set (0.001 sec)\e[K\r\n\e[K\r\nMariaDB [perpustakaan]> exit\e[K\r\nBye\e[K\r\nPS C:\\Users\\obin store> \e[92mexit\e[m\e[K\r\n\e[K\e[28C\e[?25h"
+  - delay: 19
+    content: "\r"
