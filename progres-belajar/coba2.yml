@@ -1,0 +1,1505 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/rafly
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 167
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 43
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 405
+    content: "\e]3008;start=861606eb-129e-441f-a3b3-c1fae16be3d3;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=shell;cwd=/home/rafly\e\\\e]0;root@vesper:/home/rafly\a\e[?2004h\e[38;5;196m(1)\e[0m \e[38;5;196mroot\e[0m\e[38;5;196m@\e[0m\e[38;5;196mvesper\e[0m \e[38;5;196m(\e[0m \e[38;5;196m13:02:20\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/rafly\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 11298
+    content: m
+  - delay: 1158
+    content: 'y'
+  - delay: 878
+    content: s
+  - delay: 123
+    content: s
+  - delay: 16
+    content: q
+  - delay: 308
+    content: l
+  - delay: 258
+    content: ' '
+  - delay: 1367
+    content: '-'
+  - delay: 670
+    content: u
+  - delay: 257
+    content: ' '
+  - delay: 762
+    content: r
+  - delay: 194
+    content: o
+  - delay: 157
+    content: o
+  - delay: 931
+    content: t
+  - delay: 3553
+    content: "\r\n\e[?2004l\r"
+  - delay: 13
+    content: "\e]3008;start=7c2167f9-b3cc-4280-81c7-b9b73de91054;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=command;cwd=/home/rafly\e\\bash: myssql: command not found\r\n\e]3008;end=7c2167f9-b3cc-4280-81c7-b9b73de91054;exit=interrupt;signal=0\e\\"
+  - delay: 6
+    content: "\e]3008;start=861606eb-129e-441f-a3b3-c1fae16be3d3;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=shell;cwd=/home/rafly\e\\\e]0;root@vesper:/home/rafly\a\e[?2004h\e[38;5;196m(2)\e[0m \e[38;5;196mroot\e[0m\e[38;5;196m@\e[0m\e[38;5;196mvesper\e[0m \e[38;5;196m(\e[0m \e[38;5;196m13:02:42\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/rafly\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 1919
+    content: myssql -u root
+  - delay: 941
+    content: ;
+  - delay: 219
+    content: "\r\n\e[?2004l\r"
+  - delay: 14
+    content: "\e]3008;start=81eb19fd-527a-4112-864b-d771cfe1eb92;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=command;cwd=/home/rafly\e\\bash: myssql: command not found\r\n\e]3008;end=81eb19fd-527a-4112-864b-d771cfe1eb92;exit=interrupt;signal=0\e\\"
+  - delay: 10
+    content: "\e]3008;start=861606eb-129e-441f-a3b3-c1fae16be3d3;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=shell;cwd=/home/rafly\e\\\e]0;root@vesper:/home/rafly\a\e[?2004h\e[38;5;196m(3)\e[0m \e[38;5;196mroot\e[0m\e[38;5;196m@\e[0m\e[38;5;196mvesper\e[0m \e[38;5;196m(\e[0m \e[38;5;196m13:02:45\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/rafly\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 2539
+    content: "\a"
+  - delay: 1376
+    content: myssql -u root;
+  - delay: 524
+    content: "\b"
+  - delay: 631
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 225
+    content: "\b"
+  - delay: 725
+    content: "\b\e[1P"
+  - delay: 1140
+    content: "\e[C"
+  - delay: 616
+    content: "\e[C"
+  - delay: 43
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\a"
+  - delay: 40
+    content: "\a"
+  - delay: 41
+    content: "\a"
+  - delay: 640
+    content: "\b\e[K"
+  - delay: 308
+    content: "\r\n\e[?2004l\r"
+  - delay: 9
+    content: "\e]3008;start=2df613eb-62b7-4d80-9d77-502cd7a1de2c;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=command;cwd=/home/rafly\e\\"
+  - delay: 5
+    content: "mysql: Deprecated program name. It will be removed in a future release, use '/usr/bin/mariadb' instead\r\n"
+  - delay: 28
+    content: "\e(B\e[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \\g.\r\n\e(B\e[m\e(B\e[0;1mYour MariaDB connection id is 5\r\nServer version: 12.1.2-MariaDB Arch Linux\r\n\r\n\e(B\e[m\e(B\e[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\r\n\r\n\e(B\e[m\e(B\e[0;1mType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\r\n\r\n\e(B\e[m\e[?1034hMariaDB [(none)]> "
+  - delay: 753736
+    content: "create database toko_bahan_bangunan; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varc \rhar(100)); insert into material (bahan, alat) values ('batu', 'sekop');"
+  - delay: 1352
+    content: "\b"
+  - delay: 627
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\r"
+  - delay: 41
+    content: "\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 465
+    content: "\b"
+  - delay: 570
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 178
+    content: "\b"
+  - delay: 433
+    content: "\b"
+  - delay: 211
+    content: "\b"
+  - delay: 21396
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varcha\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 189
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 200
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 193
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(1\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 160
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(10\e[C\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 257
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 626
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)\e[C\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 41
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100))\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 41
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100));\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 39
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); i\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 41
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); ins\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 282
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inse\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 186
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inser\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 306
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 182
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 443
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert i\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 221
+    content: "\b; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 833
+    content: "p; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 123
+    content: "e; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert \e[1@i\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 150
+    content: "r; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[Cp; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inser\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 2780
+    content: "u; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inse\e[1@r\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 111
+    content: "s; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); ins\e[1@e\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 211
+    content: "t; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); in\e[1@s\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 93
+    content: "a; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 283
+    content: "k; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); \e[1@i\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 118
+    content: "a; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100));\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 137
+    content: "a; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100))\e[1@;\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 191
+    content: "n; use toko_bahan_bangunan; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)\e[1@)\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1993
+    content: "\e[C"
+  - delay: 571
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 42
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 311
+    content: "\e[C"
+  - delay: 1157
+    content: "\e[C"
+  - delay: 571
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 43
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 993
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100))\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 571
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100));\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 41
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); i\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); ins\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inse\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inser\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 39
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert i\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 41
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert int\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 39
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into m\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into ma\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into mat\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 443
+    content: "\b; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into mate\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1036
+    content: "p; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into mat\e[1@e\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 123
+    content: "e; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into ma\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 131
+    content: "r; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into m\e[1@a\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1244
+    content: "p; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into \e[1@m\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 296
+    content: "u; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 137
+    content: "s; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert int\e[1@o\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 187
+    content: "t; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert in\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 116
+    content: "a; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 222
+    content: "k; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert \e[1@i\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 106
+    content: "a; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 144
+    content: "a; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inser\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 170
+    content: "n; create table material (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inse\e[1@r\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1234
+    content: "\e[C"
+  - delay: 571
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 99
+    content: "\e[C"
+  - delay: 440
+    content: "\e[C"
+  - delay: 326
+    content: "\e[C"
+  - delay: 229
+    content: "\e[C"
+  - delay: 216
+    content: "\e[C"
+  - delay: 228
+    content: "\e[C"
+  - delay: 252
+    content: "\e[C"
+  - delay: 273
+    content: "\e[C"
+  - delay: 789
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); inser\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 348
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 198
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 162
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert i\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 175
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 184
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert int\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 184
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 227
+    content: "\b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 747
+    content: "b (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert into\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 188
+    content: "u (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert int\e[1@o\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 230
+    content: "k (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert in\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 230
+    content: "u (no int primary key auto_increment, bahan varchar(100), alat varchar(100)); insert i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1167
+    content: "\e[C"
+  - delay: 571
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 398
+    content: "\e[C"
+  - delay: 632
+    content: "\e[C"
+  - delay: 42
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 624
+    content: "\e[C"
+  - delay: 302
+    content: "\e[C"
+  - delay: 269
+    content: "\e[C"
+  - delay: 631
+    content: "\e[C"
+  - delay: 42
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 960
+    content: "\b"
+  - delay: 224
+    content: "\b"
+  - delay: 259
+    content: "\b"
+  - delay: 235
+    content: "\b"
+  - delay: 377
+    content: "\b"
+  - delay: 834
+    content: "\b varchar(100), alat varchar(100)); insert in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 231
+    content: "\b varchar(100), alat varchar(100)); insert int\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 420
+    content: "\b varchar(100), alat varchar(100)); insert into\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 422
+    content: "\b varchar(100), alat varchar(100)); insert into \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 262
+    content: "\b varchar(100), alat varchar(100)); insert into m\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 2098
+    content: "j varchar(100), alat varchar(100)); insert into \e[1@m\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 191
+    content: "u varchar(100), alat varchar(100)); insert into\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 521
+    content: "d varchar(100), alat varchar(100)); insert int\e[1@o\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 125
+    content: "u varchar(100), alat varchar(100)); insert in\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 315
+    content: "l varchar(100), alat varchar(100)); insert i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1003
+    content: "\e[C"
+  - delay: 631
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 42
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 978
+    content: "\b"
+  - delay: 1218
+    content: "\b(100)); insert in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 589
+    content: "\b(100)); insert int\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 41
+    content: "\b(100)); insert into\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 40
+    content: "\b(100)); insert into \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 39
+    content: "\b(100)); insert into m\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 200
+    content: "\b(100)); insert into ma\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 207
+    content: "\b(100)); insert into mat\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 226
+    content: "\b(100)); insert into mate\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1619
+    content: "v(100)); insert into mat\e[1@e\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 147
+    content: "a(100)); insert into ma\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 135
+    content: "r(100)); insert into m\e[1@a\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 312
+    content: "c(100)); insert into \e[1@m\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 296
+    content: "h(100)); insert into\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 119
+    content: "a(100)); insert int\e[1@o\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 231
+    content: "r(100)); insert in\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1590
+    content: "\b"
+  - delay: 596
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 238
+    content: "\b"
+  - delay: 1193
+    content: " varchar(100)); insert i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 885
+    content: "\b"
+  - delay: 191
+    content: "\b"
+  - delay: 634
+    content: "\e[C"
+  - delay: 619
+    content: "\b varchar(100)); insert in\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 172
+    content: "\b varchar(100)); insert int\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 207
+    content: "\b varchar(100)); insert into\e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 458
+    content: "\b varchar(100)); insert into \e[1P\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1269
+    content: "p varchar(100)); insert into\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 147
+    content: "e varchar(100)); insert int\e[1@o\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 128
+    content: "n varchar(100)); insert in\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 244
+    content: "u varchar(100)); insert i\e[1@n\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 264
+    content: "l varchar(100)); insert \e[1@i\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 236
+    content: "i varchar(100)); insert\e[1@ \e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 134
+    content: "s varchar(100)); inser\e[1@t\e[A\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C\e[C"
+  - delay: 1251
+    content: "\e[C"
+  - delay: 571
+    content: "\e[C"
+  - delay: 43
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\r\n\r"
+  - delay: 677
+    content: "\e[C"
+  - delay: 597
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 253
+    content: "\e[C"
+  - delay: 188
+    content: "\e[C"
+  - delay: 215
+    content: "\e[C"
+  - delay: 210
+    content: "\e[C"
+  - delay: 495
+    content: "\e[C"
+  - delay: 623
+    content: "\b\e[1P"
+  - delay: 941
+    content: "\b\e[1P"
+  - delay: 221
+    content: "\b\e[1P"
+  - delay: 151
+    content: "\b\e[1P"
+  - delay: 369
+    content: "\b\e[1P"
+  - delay: 207
+    content: "\b\e[1P"
+  - delay: 185
+    content: "\b\e[1P"
+  - delay: 354
+    content: "\b\e[1P"
+  - delay: 3345
+    content: "\e[1@b"
+  - delay: 184
+    content: "\e[1@u"
+  - delay: 243
+    content: "\e[1@k"
+  - delay: 220
+    content: "\e[1@u"
+  - delay: 2382
+    content: "\e[C"
+  - delay: 1871
+    content: "\e[C"
+  - delay: 581
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 813
+    content: "\b"
+  - delay: 199
+    content: "\b"
+  - delay: 899
+    content: "\b\e[1P"
+  - delay: 159
+    content: "\b\e[1P"
+  - delay: 254
+    content: "\b\e[1P"
+  - delay: 721
+    content: "\b\e[1P"
+  - delay: 166
+    content: "\b\e[1P"
+  - delay: 693
+    content: "\e[1@j"
+  - delay: 181
+    content: "\e[1@u"
+  - delay: 208
+    content: "\e[1@d"
+  - delay: 1429
+    content: "\e[1@u"
+  - delay: 211
+    content: "\e[1@l"
+  - delay: 693
+    content: "\e[C"
+  - delay: 570
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 806
+    content: "\b\e[1P"
+  - delay: 162
+    content: "\b\e[1P"
+  - delay: 255
+    content: "\b\e[1P"
+  - delay: 321
+    content: "\b\e[1P"
+  - delay: 1647
+    content: "\e[1@p"
+  - delay: 181
+    content: "\e[1@e"
+  - delay: 161
+    content: "\e[1@n"
+  - delay: 227
+    content: "\e[1@u"
+  - delay: 243
+    content: "\e[1@l"
+  - delay: 252
+    content: "\e[1@i"
+  - delay: 112
+    content: "\e[1@s"
+  - delay: 949
+    content: "\e[C"
+  - delay: 630
+    content: "\e[C"
+  - delay: 43
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 232
+    content: "\e[C"
+  - delay: 234
+    content: "\e[C"
+  - delay: 226
+    content: "\e[C"
+  - delay: 267
+    content: "\e[C"
+  - delay: 942
+    content: "\b"
+  - delay: 470
+    content: "\b\e[1P"
+  - delay: 223
+    content: "\b\e[1P"
+  - delay: 374
+    content: "\b\e[1P"
+  - delay: 860
+    content: "\b\e[1P"
+  - delay: 5551
+    content: "\e[1@o"
+  - delay: 185
+    content: "\e[1@a"
+  - delay: 176
+    content: "\e[1@r"
+  - delay: 415
+    content: "\e[1@n"
+  - delay: 191
+    content: "\e[1@g"
+  - delay: 1305
+    content: "\b\e[1P"
+  - delay: 154
+    content: "\b\e[1P"
+  - delay: 163
+    content: "\b\e[1P"
+  - delay: 176
+    content: "\b\e[1P"
+  - delay: 744
+    content: "\e[1@r"
+  - delay: 138
+    content: "\e[1@a"
+  - delay: 218
+    content: "\e[1@n"
+  - delay: 1319
+    content: "\e[1@g"
+  - delay: 786
+    content: "\e[1@_"
+  - delay: 828
+    content: "\b\e[1P"
+  - delay: 250
+    content: "\e[1@-"
+  - delay: 905
+    content: "\e[1@o"
+  - delay: 329
+    content: "\e[1@r"
+  - delay: 123
+    content: "\e[1@a"
+  - delay: 239
+    content: "\e[1@n"
+  - delay: 183
+    content: "\e[1@g"
+  - delay: 1101
+    content: "\e[C"
+  - delay: 570
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 820
+    content: "\b\e[1P');\b\b\b"
+  - delay: 163
+    content: "\b\e[1P');\b\b\b"
+  - delay: 218
+    content: "\b\e[1P');\b\b\b"
+  - delay: 242
+    content: "\b\e[1P');\b\b\b"
+  - delay: 415
+    content: "\b\e[1P');\b\b\b"
+  - delay: 1160
+    content: "h');\b\b\b"
+  - delay: 92
+    content: "e');\b\b\b"
+  - delay: 89
+    content: "r');\b\b\b"
+  - delay: 249
+    content: "m');\b\b\b"
+  - delay: 155
+    content: "a');\b\b\b"
+  - delay: 145
+    content: "n');\b\b\b"
+  - delay: 1090
+    content: "\b"
+  - delay: 631
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 42
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 41
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 40
+    content: "\b"
+  - delay: 170
+    content: "\b"
+  - delay: 4255
+    content: "\e[C"
+  - delay: 571
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 39
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 40
+    content: "\e[C"
+  - delay: 39
+    content: "\b"
+  - delay: 40
+    content: "\e[C"
+  - delay: 41
+    content: "\b"
+  - delay: 39
+    content: "\e[C"
+  - delay: 1085
+    content: "\r\n\e(B\e[0;1mQuery OK, 1 row affected (0.002 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[m\e(B\e[0;1mDatabase changed\r\n"
+  - delay: 5
+    content: "\e(B\e[m\e(B\e[0;1mQuery OK, 0 rows affected (0.005 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[m\e(B\e[0;1mQuery OK, 1 row affected (0.001 sec)\r\n\e(B\e[m\e(B\e[0;1m\r\n\e(B\e[mMariaDB [perpustakaan]> "
+  - delay: 7910
+    content: D
+  - delay: 1151
+    content: "\b\e[K"
+  - delay: 2075
+    content: D
+  - delay: 798
+    content: "\b\e[K"
+  - delay: 1480
+    content: D
+  - delay: 992
+    content: "\b\e[K"
+  - delay: 13506
+    content: D
+  - delay: 1174
+    content: "\b\e[K"
+  - delay: 231
+    content: "\a"
+  - delay: 1342
+    content: d
+  - delay: 899
+    content: "\b\e[K"
+  - delay: 212
+    content: "\a"
+  - delay: 199
+    content: "\a"
+  - delay: 180
+    content: "\a"
+  - delay: 188
+    content: "\a"
+  - delay: 192
+    content: "\a"
+  - delay: 788
+    content: D
+  - delay: 809
+    content: "\b\e[K"
+  - delay: 145
+    content: "\a"
+  - delay: 571
+    content: e
+  - delay: 402
+    content: x
+  - delay: 297
+    content: i
+  - delay: 341
+    content: t
+  - delay: 873
+    content: "\r\n\e(B\e[0;1mBye\r\n\e(B\e[m\e]3008;end=2df613eb-62b7-4d80-9d77-502cd7a1de2c;exit=success\e\\"
+  - delay: 13
+    content: "\e]3008;start=861606eb-129e-441f-a3b3-c1fae16be3d3;machineid=d6c00ab7de394f65bf29fb1cab702020;user=root;hostname=vesper;bootid=81f7a059-38ae-4452-8dc8-d00173ceb819;pid=4019;type=shell;cwd=/home/rafly\e\\\e]0;root@vesper:/home/rafly\a\e[?2004h\e[38;5;196m(4)\e[0m \e[38;5;196mroot\e[0m\e[38;5;196m@\e[0m\e[38;5;196mvesper\e[0m \e[38;5;196m(\e[0m \e[38;5;196m13:18:42\e[0m \e[38;5;196m|\e[0m \e[38;5;196m/home/rafly\e[0m \e[38;5;196m)\r\r\n\e[0m \e[38;5;196m|-->\e[0m "
+  - delay: 2241
+    content: D
+  - delay: 1323
+    content: "\b\e[K"
+  - delay: 2400
+    content: "\e[?2004l\r\r\nlogout\r\n"
