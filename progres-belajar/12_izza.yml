@@ -1,0 +1,373 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\LENOVO
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 148
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 35
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1591
+    content: "\e[?9001h\e[?1004h"
+  - delay: 523
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 27
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 1858
+    content: 'PS C:\Users\LENOVO> '
+  - delay: 1377
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93mm\e[?25h"
+  - delay: 207
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 369
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;21Hmy \e[?25h"
+  - delay: 1532
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;21Hmy \b\e[?25h"
+  - delay: 270
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;21Hmys\e[?25h"
+  - delay: 217
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;21Hmysq\e[?25h"
+  - delay: 208
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;21Hmysql\e[?25h"
+  - delay: 210
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;21Hmysql \e[?25h"
+  - delay: 244
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;21Hmysql \e[37m-\e[?25h"
+  - delay: 1002
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;21Hmysql \e[90m-u\e[?25h"
+  - delay: 381
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[?25h"
+  - delay: 290
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37m-\e[?25h"
+  - delay: 829
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;21Hmysql \e[90m-u  \b\e[?25h"
+  - delay: 587
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mr\e[?25h"
+  - delay: 367
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mro\e[?25h"
+  - delay: 128
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroo\e[?25h"
+  - delay: 216
+    content: "\e[m\e[?25l"
+  - delay: 26
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot\e[?25h"
+  - delay: 383
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot \e[?25h"
+  - delay: 577
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot -\e[?25h"
+  - delay: 957
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;21Hmysql \e[90m-u \e[37mroot \e[90m-p\e[?25h"
+  - delay: 36113
+    content: "\e[m"
+  - delay: 25
+    content: "\r\n"
+  - delay: 180
+    content: Ent
+  - delay: 25
+    content: 'er password: '
+  - delay: 11696
+    content: '*'
+  - delay: 132
+    content: '*'
+  - delay: 273
+    content: '*'
+  - delay: 112
+    content: '*'
+  - delay: 136
+    content: '*'
+  - delay: 123
+    content: '*'
+  - delay: 473
+    content: '*'
+  - delay: 139
+    content: '*'
+  - delay: 230
+    content: '*'
+  - delay: 162
+    content: '*'
+  - delay: 614
+    content: '*'
+  - delay: 185
+    content: '*'
+  - delay: 1248
+    content: "\b"
+  - delay: 15
+    content: " \b"
+  - delay: 488
+    content: "\b"
+  - delay: 25
+    content: " \b"
+  - delay: 15
+    content: "\b \b"
+  - delay: 17
+    content: "\b"
+  - delay: 14
+    content: " \b"
+  - delay: 19
+    content: "\b"
+  - delay: 13
+    content: " \b"
+  - delay: 20
+    content: "\b"
+  - delay: 11
+    content: " \b"
+  - delay: 20
+    content: "\b"
+  - delay: 11
+    content: " \b"
+  - delay: 18
+    content: "\b"
+  - delay: 14
+    content: " \b"
+  - delay: 17
+    content: "\b"
+  - delay: 15
+    content: " \b"
+  - delay: 15
+    content: "\b \b"
+  - delay: 29
+    content: "\b"
+  - delay: 19
+    content: " \b"
+  - delay: 18
+    content: "\b \b"
+  - delay: 216
+    content: '*'
+  - delay: 411
+    content: '*'
+  - delay: 741
+    content: '*'
+  - delay: 143
+    content: '*'
+  - delay: 130
+    content: '*'
+  - delay: 142
+    content: '*'
+  - delay: 141
+    content: '*'
+  - delay: 249
+    content: '*'
+  - delay: 215
+    content: '*'
+  - delay: 180
+    content: '*'
+  - delay: 110
+    content: "\r\n"
+  - delay: 135
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 18
+    content: "\e[?25l\r\nYour MariaDB connection id is 25\r\nServer version: 12.0.2-MariaDB mariadb.org binary distribution\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 4438
+    content: s
+  - delay: 202
+    content: h
+  - delay: 229
+    content: o
+  - delay: 483
+    content: w
+  - delay: 116
+    content: ' '
+  - delay: 191
+    content: d
+  - delay: 245
+    content: a
+  - delay: 122
+    content: t
+  - delay: 122
+    content: a
+  - delay: 193
+    content: b
+  - delay: 432
+    content: a
+  - delay: 220
+    content: s
+  - delay: 244
+    content: e
+  - delay: 224
+    content: s
+  - delay: 574
+    content: ;
+  - delay: 2475
+    content: "\r\n"
+  - delay: 21
+    content: "\e[?25l+--------------------+\r\n| Database           |\r\n+--------------------+\r\n| information_schema |\r\n| makanan            |\r\n| mysql              |\r\n| performance_schema |\r\n| perpustakaan       |\r\n| rumah_sakit        |\r\n| sys                |\r\n+--------------------+\r\n7 rows in set (0.005 sec)\e[30;1HMariaDB [(none)]> \e[?25h"
+  - delay: 1045
+    content: e
+  - delay: 759
+    content: c
+  - delay: 658
+    content: "\b \b"
+  - delay: 559
+    content: x
+  - delay: 85
+    content: i
+  - delay: 260
+    content: t
+  - delay: 357
+    content: "\r\n"
+  - delay: 21
+    content: "Bye\r\n"
+  - delay: 116
+    content: 'PS C:\Users\LENOVO> '
+  - delay: 727
+    content: "\e[?25l"
+  - delay: 8
+    content: "\e[93me\e[?25h"
+  - delay: 185
+    content: "\e[m\e[?25l"
+  - delay: 26
+    content: "\e[93m\bex\e[?25h"
+  - delay: 267
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[32;21Hexi\e[?25h"
+  - delay: 222
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[92m\e[32;21Hexit\e[?25h"
+  - delay: 407
+    content: "\e[m"
+  - delay: 24
+    content: "\r\n"
